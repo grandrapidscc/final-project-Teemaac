@@ -1,9 +1,7 @@
 class powerups{
-    string name;
-    string description;
-    int effect;
+    public string name;
+    public string description;
+    public int effect;
 }
 
-class hPotion : powerups{
-    
-}
+

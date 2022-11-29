@@ -1,11 +1,10 @@
-class Wizert : thing{
+class Wizert : being{
 
     public int mp;
-    public string powerups;
-
-    Wizert player = new Wizert{
-        mp = 100,
-        hp = 200,
-    };
+    //need to build in moves
+   public Wizert(){
+    mp = 100;
+    hp = 200;
+   }
 
 }

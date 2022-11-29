@@ -1,5 +1,5 @@
 //wizert and enemies will inherit
-class thing{
+class being{
     public int hp;
     public string moves;
 }
