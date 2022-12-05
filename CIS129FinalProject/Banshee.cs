@@ -4,7 +4,10 @@ class Banshee : Enemy{
         name = "Banshee";
         damage = 5;
         hp = 8;
-        moves = "Screech";
+        moves = "Screeche";
     }
 
+    public void ressurect(){
+        hp = 8;
+    }
 }

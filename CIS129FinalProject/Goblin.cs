@@ -5,4 +5,8 @@ class Goblin : Enemy{
         hp = 3;
         moves = "Body Slam";
     }
+
+    public void ressurect(){
+        hp = 3;
+    }
 }

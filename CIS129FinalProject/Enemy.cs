@@ -1,5 +1,5 @@
 class Enemy : being{
-    public String name;
+    public string name;
     public int damage;
 
 }

@@ -8,4 +8,8 @@ class Orc : Enemy{
 
     }
 
+    public void ressurect(){
+        hp = 5;
+    }
+
 }

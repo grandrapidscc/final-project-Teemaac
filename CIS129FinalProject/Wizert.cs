@@ -1,3 +1,4 @@
+using System;
 class Wizert : being{
 
     //random
@@ -27,7 +28,6 @@ class Wizert : being{
         int luckyNum = roll.Next(1,10);
             if(luckyNum / 2 == 0){
                     Console.WriteLine("The Wizert has escaped!");
-                    playerX = playerX - 1;
                 }else{
                     Console.WriteLine("The Wizert failed to escape.");
                 }
@@ -36,8 +36,15 @@ class Wizert : being{
    public void fireball(){
         Console.WriteLine("The Wizert casts a fireball that burns the enemy!");
         Console.WriteLine("Fireball used 3 Magika Points");
-        mp = mp = -5;
+        mp = mp = -3;
         
+   }
+
+   public void reset(){
+        playerX = roll.Next(1,5);
+        playerY = roll.Next(1,5);
+        mp = 100;
+        hp = 200;
    }
 
 }
